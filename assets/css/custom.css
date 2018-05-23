@@ -18,3 +18,15 @@
   padding-bottom: 100px;
 }
 .btn-google-bg:hover{color: #000;}
+.bg-faded{
+  background: #fff;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: #333;
+}
+.btn-app-bg{
+  color: #fff;
+}
+.pricing-plan{
+  background:#fff;
+  }

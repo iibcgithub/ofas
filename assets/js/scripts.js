@@ -132,13 +132,13 @@ Version      : 1.0
 		  var mapOptions = {
 			zoom: 15,
 			scrollwheel: false,
-			center: new google.maps.LatLng(-37.7622470161679, 145.06004333496094)
+			center: new google.maps.LatLng(52.129405, -106.659307)
 		  };
 		  var map = new google.maps.Map(document.getElementById('map'),
 			  mapOptions);
 		  var marker = new google.maps.Marker({
 			position: map.getCenter(),
-			icon: 'assets/img/map_pin.png',
+			icon: 'assets/img/home_estate_pin.png',
 			map: map
 		  });
 		}
