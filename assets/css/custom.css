@@ -36,3 +36,44 @@
 .home_bg{
   height: 550px;
 }
+.about-us-content p{
+  margin-bottom: 20px;
+}
+.green {
+   color: #03aeef!important;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open > .nav-link
+{
+  color: #03aeef !important;
+}
+.icon_wrap:before, .icon_wrap:after{
+  background-color: #03aeef;
+}
+.icon_wrap i, .single_howitwork .single_howitwork_icon, .single_about .single_about_icon,
+.single_more_feature .single_icon span,
+.topcontrol{
+  color: #03aeef;
+}
+.single_more_feature .single_icon span{
+  border-bottom: 5px solid #03aeef;
+}
+
+.about-us-content a:hover{
+  color: #0275d8;
+  text-decoration: underline;
+}
+.single_about:hover:after{
+  border-color: #03aeef;
+}
+.single_more_feature p{
+  text-align: justify;
+}
+@media only screen and (max-width:768px) { 
+  .single_howitwork .single_howitwork_icon{
+    display: block;
+    margin: 0 auto;
+  }
+  .single_howitwork h3{
+    text-align: center;
+  }
+}
