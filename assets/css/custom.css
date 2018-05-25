@@ -68,6 +68,9 @@
 .single_more_feature p{
   text-align: justify;
 }
+.how_it_works{
+  background: #fff;
+}
 @media only screen and (max-width:768px) { 
   .single_howitwork .single_howitwork_icon{
     display: block;
